@@ -14,7 +14,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 a:hover {
@@ -24,7 +24,7 @@ a:hover {
 
 .active {
   float: left;
-  color: #cd2857;
+  color: #eb6644;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -38,7 +38,10 @@ a:hover {
   height: 100vh;
   width: 100%;
   flex-direction: column;
-  background-image: linear-gradient(to bottom right, #4863ad, #efb2cf);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+  background-image: linear-gradient(to bottom, #4863ad, #efb2cf);
 }
 
 .header h1 {
@@ -46,9 +49,73 @@ a:hover {
   font-weight: bold;
   font-size: 50px;
   font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
 }
 
-.header p {
+p {
   font-size: 30px;
   font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+  background-image: linear-gradient(to bottom, #efb2cf, #ccd7ea);
+}
+
+.body h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #ccd7ea, #99a8ce);
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #c9c9c9;
+  border-radius: 7px;
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 15%);
+  height: 500px;
+  width: 300px;
+  box-sizing: inherit;
+  justify-content: center;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  box-sizing: inherit;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+  background-image: linear-gradient(to bottom, #99a8ce, #f7f4e5);
 }

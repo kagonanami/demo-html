@@ -119,7 +119,18 @@ p {
 }
 
 .media {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 2px;
+}
+
+.fixed {
+  border: 3px solid whitesmoke;
+  position: fixed;
+  right: 5px;
+  bottom: 0px;
+}
+
+a {
+  color: inherit;
 }

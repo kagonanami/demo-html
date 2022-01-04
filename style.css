@@ -8,6 +8,47 @@ html {
   width: 100%;
   position: sticky;
   top: 0px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topnav .logo {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  color: #eb6644;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav .nav-item-wrapper {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 30px;
+  margin-right: 20px;
+}
+.topnav .nav-item-wrapper .nav-item {
+  display: flex;
+  justify-content: flex-start;
+  float: right;
+  color: #f2f2f2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .item {
@@ -85,6 +126,7 @@ p {
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   align-items: center;
+  justify-items: center;
   justify-content: center;
   box-sizing: border-box;
   background-image: linear-gradient(to bottom, #ccd7ea, #99a8ce);
@@ -103,6 +145,7 @@ p {
 
 .card img {
   width: 100%;
+  height: 90%;
   object-fit: cover;
   display: block;
   box-sizing: inherit;

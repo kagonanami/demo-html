@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -41,6 +45,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 24px;
+  box-sizing: border-box;
   background-image: linear-gradient(to bottom, #4863ad, #efb2cf);
 }
 
@@ -68,6 +73,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding: 24px;
+  box-sizing: border-box;
   background-image: linear-gradient(to bottom, #efb2cf, #ccd7ea);
 }
 
@@ -80,6 +86,7 @@ p {
   grid-auto-rows: minmax(100px, auto);
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
   background-image: linear-gradient(to bottom, #ccd7ea, #99a8ce);
 }
 
@@ -111,6 +118,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding: 24px;
+  box-sizing: border-box;
   background-image: linear-gradient(to bottom, #99a8ce, #f7f4e5);
 }
 
